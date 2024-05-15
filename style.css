@@ -1,0 +1,117 @@
+.menyu {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    overflow-x: hidden;
+    transition: 0.6s;
+}
+
+.menyu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+}
+
+.menyu a:hover {
+    color: palevioletred;
+}
+
+.boxmenyu {
+    margin-left: 300px;
+}
+
+#openmenyu {
+    font-size: 30px;
+    cursor: pointer;
+    color: blue;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    display: none;
+    position: fixed;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    width: 30%;
+    margin: 15% auto;
+    background-color: #fff;
+    border: 1px solid #888;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.close__btn:hover,
+.close__btn:focus {
+    color: black;
+}
+
+.close__btn {
+    color: #aaa;
+    float: right;
+    cursor: pointer;
+}
+
+.modalbutton {
+    width: 180px;
+    height: 50px;
+    background-color: rgba(237, 166, 12, 1);
+    color: black;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.modalbuttonbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 55%;
+}
+
+.disp {
+    display: flex;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.loreem {
+    margin-top: -3%;
+}
+
+.input {
+    width: 95%;
+    padding: 10px;
+}
+
+.somethingbtn {
+    width: 100.5%;
+    padding: 10px;
+    margin-top: 2%;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
